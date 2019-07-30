@@ -1,0 +1,28 @@
+*{
+    border: 0.5px solid rgba(255,0,0,0.3);
+    font-family: 微軟正黑體;
+    color: #ffffff;
+}
+box{
+    height: 700px;
+}
+body{
+    height: 500px;
+    background-image: url("https://images.unsplash.com/photo-1496318447583-f524534e9ce1?ixlib=rb-1.2.1&auto=format&fit=crop&w=2905&q=80");
+    background-size: 120%;
+}
+/* 導覽列區塊 */
+#logo{
+    /* 字體大小 fz2e */
+    font-size: 2em;
+}
+a{
+    /* 文字裝飾 td */
+    text-decoration: none;
+}
+
+nav a{
+    /* 邊框底部 bdb */
+    border-bottom: 1.5px solid #fff;
+    padding: 10px 0;
+}
