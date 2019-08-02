@@ -1,15 +1,33 @@
+<!-- 文件類型 html5 -->
 <!DOCTYPE html>
-<html lang="en">
+
+<!-- 網頁 語言 -->
+<html lang="zh">
+
+<!-- 頭部 － 網頁描述 -->
 <head>
+
+    <!-- 編碼 萬國碼 -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <!-- 網站標題 － 瀏覽器標籤 -->
+    <title>Min drink web</title>
+    
+    <!-- ＣＳＳ區塊 － 內部樣式 -->
+    <!-- <style>
+        #box{background-color: rgba(0,0,0,0.3);
+        height: 500px;
+        }
+    </style> -->
+    
+    <!-- 連結到外部 ＣＳＳ檔案 -->
     <link rel="stylesheet" href="style.css">
 </head>
+
+<!-- 身體 網頁內容 -->
 <body>
     <div id="box">
-        <!-- 導覽列元素-放logo 分頁連結 有語義 提升seo -->
+        <!-- 導覽列元素 - 放logo 分頁連結 有語義 提升seo -->
         <nav>
             <a href="index.html" id="logo">敏飲料</a>
             <div>
@@ -18,24 +36,25 @@
                 <a href="＃">聯絡我</a>
             </div>
         </nav>
+        <!-- 內容區塊元素 － 標題 內容 按鈕等 － 有語意 -->
         <section id="content">
             <h1>敏飲料店</h1>
             <p>Lorem ipsum dolor sit amet confsectetur adipisicing elit. Dolorum, impedit.</p>
             <a href="#">前往購買</a>
             <hr>
         </section>
-
+        <!-- 圖片按鈕區塊 -->
         <section id="button">
             <!-- (a[href="#"]>img)*3 -->
                 <a href="#" class="button-mr"><img src="iconfinder_Nautical_marine_maritime_naval_sea_ocean-13_2755675.png" alt="關於我"></a>
                 <a href="#" class="button-mr"><img src="iconfinder_Nautical_marine_maritime_naval_sea_ocean-18_2755670.png" alt="飲料"></a>
                 <a href="#"><img src="iconfinder_Nautical_marine_maritime_naval_sea_ocean-34_2755654.png" alt="聯絡我"></a>  
         </section>
-        
+        <!-- 頁尾 -->
+        <!-- 多行程式換行：複選 按住alt + 上或下 -->
         <footer>
             min shop &copy; 2019
         </footer>
-
     </div>
 </body>
 </html>

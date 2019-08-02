@@ -120,22 +120,23 @@ footer {
     line-height: 60px;
 }
 
-hr{
-    border: 1px;
-}
 #about{
     width: 700px;
     height: 300px;
     background-image: url(https://images.unsplash.com/photo-1457518919282-b199744eefd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1920&q=80);
     background-size: cover;
+    /* 邊框 bd */
     border: 30px solid #fff;
-    
+    /* 區塊陰影：左右位移 上下位移 模糊量 顏色 */
     box-shadow: 5px 5px 10px black;
+    /* 外距：上 右 下 左 */
     margin:200px auto 0 auto;
     /* 水平置中 */
     text-align: center;
     /* 垂直置中 一行文字 */
     line-height: 400px;
+    /* 文字大小 fz20 */
     font-size: 20px;
+    /* 文字陰影 ts - 與區塊陰影相同 */
     text-shadow: 0 5px 7px black;
 }
